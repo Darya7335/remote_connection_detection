@@ -1,0 +1,62 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    min-height: 100%;
+}
+
+.container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  height: 280px;
+  width: 300px;
+  margin-top: 10%;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  font-weight: 550;
+  padding: .5em 2em;
+  border-radius: 8px;
+  overflow: hidden;
+  background: linear-gradient(to bottom,rgba(120, 107, 175, .5), rgba(40, 140, 255,.3)), url(https://madeas.ru/wp-content/uploads/2018/08/bg-art_26-300x300.jpg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.label {
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #2e2e2e;
+}
+

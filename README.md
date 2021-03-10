@@ -1,1 +1,1 @@
-# remote_connection_detection
+Scientific research work on the topic "Remote connection detection in the browser based on the analysis of the dynamics of keystrokes and mouse movement"

@@ -1,0 +1,46 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>APP</title>
+    <link rel="stylesheet" href="/static/css/style_form.css">
+</head>
+
+<div class="form-wrap">
+  <div class="profile"><img src="https://www.nr-style.com.ua/images/anonymous.png" class=round height = 90px>
+    <h1>Профиль</h1>
+  </div>
+  <form action="#" method="post">
+    <div>
+      <label for="name">Дата рождения</label>
+      <input type="text" name="birth" autocomplete="off" required>
+    </div>
+    <div class="radio">
+      <span>Пол</span>
+      <label>
+        <input type="radio" name="sex" value="мужской">мужской
+        <div class="radio-control male"></div>
+      </label>
+      <label>
+        <input type="radio" name="sex" value="женский">женский
+        <div class="radio-control female"></div>
+      </label>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" autocomplete="off" required>
+    </div>
+    <div>
+      <label for="country">Страна</label>
+      <select name="country">
+        <option>Выберите страну проживания</option>
+        <option value="Россия">Россия</option> 
+        <option value="Украина">Украина</option> 
+        <option value="Беларусь">Беларусь</option> 
+      </select> 
+      <div class="select-arrow"></div> 
+    </div> 
+    <p><input type="submit"></p>
+  </form> 
+</div>
+<script src="/static/js/main.js"></script>
